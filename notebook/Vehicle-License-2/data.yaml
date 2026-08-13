@@ -1,0 +1,14 @@
+
+train: /Users/vinni/Desktop/Vehcile_License/notebook/Vehicle-License-2/train/images
+val: /Users/vinni/Desktop/Vehcile_License/notebook/Vehicle-License-2/valid/images
+test: /Users/vinni/Desktop/Vehcile_License/notebook/Vehicle-License-2/test/images
+
+nc: 9
+names: ['Bicycle', 'Bus', 'Car', 'E-bike', 'Jeep', 'License-Plate', 'Motorcycle', 'Tricycle', 'Truck']
+
+roboflow:
+  workspace: vehicle-and-license
+  project: vehicle-license
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vehicle-and-license/vehicle-license/dataset/2
